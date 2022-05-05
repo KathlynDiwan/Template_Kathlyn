@@ -1,7 +1,7 @@
 @charset "utf-8";
 /* seletores padrões */
 body { 		
-    background-color:antiquewhite;
+    background-color:rgb(164, 34, 121);
 }
 .col-6 , .col-8 {
     min-height: 50px;
