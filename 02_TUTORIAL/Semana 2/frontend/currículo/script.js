@@ -8,3 +8,7 @@ function whiteMode (){
         darkmode == true; 
     }
 
+function confirmar()
+{
+    window.alert('Leia com atenção')
+}
