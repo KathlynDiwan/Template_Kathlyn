@@ -5,7 +5,6 @@ function calcular() {
     var operacao = document.getElementById('operadores').value;
     var resultado = "";
 
-
     //as seguintes funções estão sendo utilizadas para identificar como será calculado o valor final, de acordo com o operador matemático selecionado
     
     if (operacao == "+") {           //soma     
