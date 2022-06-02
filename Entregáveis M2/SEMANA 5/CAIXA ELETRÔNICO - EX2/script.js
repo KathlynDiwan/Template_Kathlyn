@@ -3,9 +3,9 @@ function caixa() {
     var total = document.getElementById('valor').value; 
     var notas;
 
-    //dividir o total pelas notas de 10 - apenas a parte inteira 
+    //dividir o total pelas notas de 100 - apenas a parte inteira 
     //contnuar a divisão com o restante --> % e dividir com as próximas cedulas 
-    //dividir novamente o restante da divisão com as cedulas de 5 e dividir com as de 1 
+    //dividir novamente o restante da divisão com as cedulas de 50,20,10,5,1, 
 
 
     notas = parseInt(total / 100);
