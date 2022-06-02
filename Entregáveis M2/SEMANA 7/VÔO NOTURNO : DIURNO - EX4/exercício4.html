@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 4</title>
+</head>
+<script src="ex4.js"></script>
+<body>
+<section>
+    <div>
+     <h1>Exercício 4</h1>
+     <h4>Crie uma página web que permita ao usuário informar a quantidade de pessoas (número inteiro inteiro) e o período (Noturno ou Diurno) e, quando o usuário indicar que deseja que o cálculo seja realizado (pressionar um botão), mostre o total da compra de acordo com as condições abaixo:</h4>
+        <li> vôo diurno, 200 por pessoa. Se mais do que 50 pessoas, desconto de 40% por pessoa.</li>
+        <li>Se vôo noturno, 100 por pessoa. Se mais do que 50 pessoas, desconto de 20% por pessoa.</li>
+        <br>
+        <p>Quantidade de pessoas:<input type="number" name="number" id="txtnum"></p>
+        <p>Voo:
+            <select id="select">
+                <option value="diurno">Diurno</option>
+                <option value="noturno">Noturno</option>
+            </select>
+        </p>
+        <p><input type="button" value="Confirmar informação" onclick="confirmar()"></p>
+        <div id="res"></div>
+    </div>
+</section>
+</body>
+</html>
