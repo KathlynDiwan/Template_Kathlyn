@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form onsubmit="getValues()">
+        <label for="">Adicione os números na caixa abaixo</label><br><br>
+        <input type="text" id="numero"><br><br>
+        <input type="submit" value="Adicionar"><br><br>
+    </form>
+    
+    <form onsubmit="calculo()">
+        <label for="">O seu Valor foco é:</label><br><br>
+        <input type="text" id="valorFoco"><br><br>
+        <input type="submit" value="Calcular"><br><br>
+    </form>
+    <div id="display">
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
