@@ -67,7 +67,7 @@ app.post('/userupdate', urlencodedParser, (req, res) => {
 	});
 	db.close(); // Fecha o banco
 });
-
+ 
 // Exclui um registro (é o D do CRUD - Delete)
 app.post('/userdelete', urlencodedParser, (req, res) => {
 	res.statusCode = 200;
