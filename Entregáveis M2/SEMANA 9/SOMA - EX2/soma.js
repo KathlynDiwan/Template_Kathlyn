@@ -1,3 +1,5 @@
+function calcular()
+
 {
     var num = document.getElementById("txtn").value
     var res = document.getElementById("res")
