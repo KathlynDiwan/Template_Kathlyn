@@ -6,12 +6,11 @@ const app = express();
 const hostname = '127.0.0.1';
 const port = 3026;
 
-const sqlite3 = require("sqlite3").verbose();
-const DBPATH = "curriculobd.db";
-// Setting up the express static middleware.
-app.use(express.static("../frontend/"));
+const sqlite3 = require("sqlite3").verbose(); //conectando com o banco de dados 
+const DBPATH = "curriculobd.db"; //conexão com banco de dados 
 
-//returns comunication info
+//pegando os dados do servidor: endpoints
+app.use(express.static("../frontend/"));
 app.use(express.json());
 app.get("/idiomas", (req, res) => {
   res.statusCode = 200;
@@ -28,7 +27,7 @@ app.get("/idiomas", (req, res) => {
   db.close();
 });
 
-/* Inicia o servidor */
+//criando o servidor 
 app.listen(port, hostname, () => {
   console.log(`Server running at http://${hostname}:${port}/`);
 });
